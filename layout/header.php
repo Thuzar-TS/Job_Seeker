@@ -15,6 +15,11 @@
 </head>
 <body>
   <div class="wrapper">
-      <?php include_once("sidebar.php"); ?>
-      <div id="content">
-      <?php include_once("nav.php"); ?>
+  <div class="nav-wrapper">
+    <?php include_once("nav.php"); ?>
+  </div>
+  <div>
+    <?php include_once("sidebar.php"); ?>
+  </div>   
+  <div id="content">
+      
