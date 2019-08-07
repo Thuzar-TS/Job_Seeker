@@ -3,6 +3,44 @@
 */
 @import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
 
+/* Nav */
+#sidebar{
+    height: 100%;
+}
+.nav-wrapper {
+    position: fixed;
+    width: 100%;
+}
+ /* End Nav */
+
+/* Overall CSS */
+.pad-free {
+    padding: 0px;
+}
+
+.page-header {
+    text-align: center;
+    margin: 0px 0px 15px 0px;
+    border: none;
+}
+
+.btn-all {
+    width: 100%;
+    padding: 5px;
+}
+
+.edit-btn{
+    color: blue;
+}
+
+.del-btn {
+    color: red;
+}
+/* End Overall */
+/* B-1 */
+
+/* End B-1 */
+
 
 body {
     font-family: 'Poppins', sans-serif;
@@ -54,6 +92,7 @@ a, a:hover, a:focus {
 }
 
 #sidebar {
+    padding-top: 50px;
     min-width: 250px;
     max-width: 250px;
     background: #2f353a;
@@ -170,6 +209,7 @@ a.article, a.article:hover {
     transition: all 0.3s;
     width:100%;
     /* padding: 15px; */
+    padding-top: 50px;
 }
 
 .wrap{
