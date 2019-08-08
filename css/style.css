@@ -57,8 +57,7 @@
 }
 
 .btn-all {
-    width: 100%;
-    padding: 5px;
+    background-color: #0086cc;
 }
 
 .edit-btn{
@@ -80,7 +79,7 @@
 
 body {
     font-family: 'Poppins', sans-serif;
-    background: #eee;
+    background: #ecf3f7;
 }
 
 p {
@@ -201,6 +200,7 @@ a, a:hover, a:focus {
 #sidebar ul li.active > a, a[aria-expanded="true"] {
     color: #fff;
     background: #6ebdea;
+    border-bottom: 1px solid #eee;
 }
 
 
@@ -371,7 +371,7 @@ a.article, a.article:hover {
 }
 /*for login form*/
 .login-box{
-    width: 320px;
+    width: 325px;
     background: #fff;
     color: #000;
     top: 50%;
@@ -379,7 +379,7 @@ a.article, a.article:hover {
     position: absolute;
     box-sizing: border-box;
     transform: translate(-50%,-50%);
-    padding: 20px 50px;
+    padding: 20px;
     box-shadow: 0 1px 4px 0 rgba(0,0,0,0.37);
     border-radius: 5px;
     
