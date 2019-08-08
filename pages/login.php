@@ -17,7 +17,7 @@
 <div class="login-box">
 <img src="../images/mp_logo.png" alt="profile" class="avatar">
         <!-- <h1>ログインフォーム</h1> -->
-        <form action="#">
+        <!-- <form action="#"> -->
             <label for="email">メールアドレス</label>
             <input type="text" name="email">
             <label for="password">パスワード</label>
@@ -26,9 +26,9 @@
               <input class="col-md-2" type="checkbox" name="remember" id="remember" >
               <label class="col-md-10" for="remember">ログインフォームを覚えている</label>
             </div>    
-            <button type="submit" value="ログイン" class="login-btn">ログイン</button>
+            <a href="JobSearch.php"><button type="submit" value="ログイン" class="login-btn">ログイン</button></a>
             <a href="index.html">パスワードをお忘れですか?</a>
-        </form>
+        <!-- </form> -->
     </div>
 </body>
 </html>
