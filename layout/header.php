@@ -18,7 +18,7 @@
   <div class="nav-wrapper">
     <?php include_once("nav.php"); ?>
   </div>
-  <div>
+  <div id="#sidebar-collapse">
     <?php include_once("sidebar.php"); ?>
   </div>   
   <div id="content">
