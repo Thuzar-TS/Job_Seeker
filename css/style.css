@@ -371,7 +371,7 @@ a.article, a.article:hover {
 }
 /*for login form*/
 .login-box{
-    width: 320px;
+    width: 325px;
     background: #fff;
     color: #000;
     top: 50%;
@@ -379,7 +379,7 @@ a.article, a.article:hover {
     position: absolute;
     box-sizing: border-box;
     transform: translate(-50%,-50%);
-    padding: 20px 50px;
+    padding: 20px;
     box-shadow: 0 1px 4px 0 rgba(0,0,0,0.37);
     border-radius: 5px;
     

@@ -15,7 +15,7 @@
 </head>
 <body>
 <div class="login-box">
-<img src="../images/mp_logo.png" alt="profile" class="avatar">
+        <div class="align-center"><img src="../images/mp_logo.png" alt="profile" class="avatar"></div>
         <!-- <h1>ログインフォーム</h1> -->
         <!-- <form action="#"> -->
             <label for="email">メールアドレス</label>
