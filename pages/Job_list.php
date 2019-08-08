@@ -2,11 +2,19 @@
 
 <div class="wrap">
     <h3 class="page-header">求人情報</h3> 
-    <div class="col-md-12">
+    <div class="col-md-12 pad-free">
     <form class="example" action="/action_page.php">
-  <input type="text" placeholder="検索" name="search">
-  <button type="submit"><i class="fa fa-search"></i></button>
-</form>
+        <div class="col-xs-6 col-md-10">
+            <input type="text" class="form-control" placeholder="検索" id="logSearch">
+        </div>
+        <div class="col-xs-6 col-md-2">
+        
+            <button class="btn btn-primary col-md-12 searchBtn" type="submit">
+                <span class="glyphicon glyphicon-search side-icon"></span> 検索
+            </button>
+    
+        </div>
+    </form>
 
     </div>
     <div class="col-md-12">
