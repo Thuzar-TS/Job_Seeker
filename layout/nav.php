@@ -14,7 +14,7 @@
 		
         <div class="collapse navbar-collapse" id="sidebar-collapse">
             <ul class="nav navbar-top-links navbar-right">
-				<a href="#" class="logoutBtn"><i class="glyphicon glyphicon-log-out"></i> ログアウト</a>
+				<a href="#" class="logoutBtn"><i class="glyphicon glyphicon-log-outgi"></i> ログアウト</a>
             </ul>
         
         </div>
