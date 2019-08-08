@@ -24,8 +24,8 @@
                 </div>
                 <div class="col-md-11">
                     Job ID: SF190025485<br><br>
-                    顧客ID: <br><br>
-                    顧客名: <br><br>
+                    顧客ID: 000025<br><br>
+                    顧客名: 田中<br><br>
                 </div>
             </div>        
         </div>
@@ -45,9 +45,9 @@
                     <img src="../images/2.png" alt="" class="col-md-12 pad-free">
                 </div>
                 <div class="col-md-11">
-                Job ID <br><br>
-                    顧客ID <br><br>
-                    顧客名 <br><br>
+                Job ID: SF190025485 <br><br>
+                顧客ID: 000025 <br><br>
+                    顧客名: 小林<br><br>
                 </div>
                 <div class="col-md-1">
                     <!-- <button class="btn btn-info btn-all">Edit</button> <br> -->
@@ -72,9 +72,9 @@
                     <img src="../images/3.png" alt="" class="col-md-12 pad-free">
                 </div>
                 <div class="col-md-11">
-                Job ID <br><br>
-                    顧客ID <br><br>
-                    顧客名 <br><br>
+                Job ID: SF190025485 <br><br>
+                顧客ID: 000025 <br><br>
+                    顧客名: 石川<br><br>
                 </div>
             </div>        
         </div>
@@ -93,9 +93,9 @@
                     <img src="../images/4.png" alt="" class="col-md-12 pad-free">
                 </div>
                 <div class="col-md-11">
-                Job ID <br>
-                    顧客ID <br>
-                    顧客名 <br>
+                Job ID: SF190025485 <br><br>
+                顧客ID: 000025 <br><br>
+                    顧客名: 石川県<br><br>
                 </div>
             </div>        
         </div>
