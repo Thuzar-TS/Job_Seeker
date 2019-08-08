@@ -2,11 +2,17 @@
 
 <div class="wrap">
     <h4 class="page-header">Customer (Company) List</h4> 
-    <div class="col-md-12">
-        <div class="alert alert-info">Search</div>
+    <div class="col-md-12 pad-free mb-20">
+        <!-- <div class="alert alert-info">Search</div> -->
+        <div class="col-md-11">
+        <input type="text" name="searchcustomer" placeholder="Search Customer" class="form-control">
+        </div>
+        <div class="col-md-1">
+            <button class="btn btn-primary form-control">Search</button>
+        </div>
     </div>
     
-    <div class="col-md-4">
+    <div class="col-md-12">
         <div class="panel panel-info"> 
             <div class="panel-heading">
                 First Company 
@@ -16,10 +22,10 @@
                 </span>
             </div>   
             <div class="panel-body">
-                <div class="col-md-2">
+                <div class="col-md-1">
                     <img src="../images/1.png" alt="" class="col-md-12 pad-free">
                 </div>
-                <div class="col-md-10">
+                <div class="col-md-11">
                     Name <br>
                     ID <br>
                     Info <br>
@@ -28,54 +34,51 @@
         </div>
     </div>
 
-    <div class="col-md-4">
-        <div class="panel panel-info">  
+    <div class="col-md-12">
+        <div class="panel panel-info">
             <div class="panel-heading">
-                Second Company 
+                First Company
                 <span class="pull-right">
                     <a href="#" class="edit-btn"><span class="glyphicon glyphicon-edit"></span></a>&nbsp;
                     <a href="#" class="del-btn"><span class="glyphicon glyphicon-trash"></span></a>
                 </span>
-            </div>          
+            </div>   
             <div class="panel-body">
-                <div class="col-md-2">
+                <div class="col-md-1">
                     <img src="../images/2.png" alt="" class="col-md-12 pad-free">
                 </div>
-                <div class="col-md-8">
+                <div class="col-md-11">
                     Name <br>
                     ID <br>
                     Info <br>
                 </div>
-                <div class="col-md-2">
-                    <!-- <button class="btn btn-info btn-all">Edit</button> <br> -->
-                    <!-- <button class="btn btn-danger btn-all">Delete</button> -->
-                    
+            </div>      
+        </div>
+    </div>
+
+    <div class="col-md-12">
+        <div class="panel panel-info"> 
+            <div class="panel-heading">
+                First Company 
+                <span class="pull-right">
+                    <a href="#" class="edit-btn"><span class="glyphicon glyphicon-edit"></span></a>&nbsp;
+                    <a href="#" class="del-btn"><span class="glyphicon glyphicon-trash"></span></a>
+                </span>
+            </div>   
+            <div class="panel-body">
+                <div class="col-md-1">
+                    <img src="../images/3.png" alt="" class="col-md-12 pad-free">
+                </div>
+                <div class="col-md-11">
+                    Name <br>
+                    ID <br>
+                    Info <br>
                 </div>
             </div>        
         </div>
     </div>
 
-    <div class="col-md-4">
-        <div class="panel panel-info"> 
-            <div class="panel-heading">
-                Third Company 
-                <span class="pull-right">
-                    <a href="#" class="edit-btn"><span class="glyphicon glyphicon-edit"></span></a>&nbsp;
-                    <a href="#" class="del-btn"><span class="glyphicon glyphicon-trash"></span></a>
-                </span>
-            </div>       
-            <div class="panel-body">
-                <div class="col-md-2">
-                    <img src="../images/3.png" alt="" class="col-md-12 pad-free">
-                </div>
-                <div class="col-md-10">
-                    Name <br>
-                    ID <br>
-                    Info <br>
-                </div>
-            </div>        
-        </div>
-    </div>
+    
     
     <!-- <ul style="list-style: none;">
         <li>
