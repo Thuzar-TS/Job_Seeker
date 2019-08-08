@@ -7,6 +7,38 @@
 #sidebar{
     height: 100%;
 }
+/*create_view*/
+.t1{
+    letter-spacing:3px;
+    margin-bottom:15px;
+    font-size:17px;
+}
+.box{
+    width:100%;
+    padding:5%;
+    border-radius:10px;
+}
+.back{
+    background-color:white;
+    padding:3%;
+    border-radius: 3%;
+}
+.bt
+{
+    margin-top:40px;
+    padding:15px;
+}
+.jumbotron .container {
+    max-width: 100%;
+    list-style:none;
+    background-color:white;
+    font-size:40px;
+    
+  }
+
+
+
+/*create_view*/
 .nav-wrapper {
     position: fixed;
     width: 100%;
