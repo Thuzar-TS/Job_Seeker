@@ -52,12 +52,15 @@
 
 .page-header {
     text-align: center;
-    margin: 0px 0px 15px 0px;
+    margin: 15px 0px;
     border: none;
+    font-weight: bold;
+    color: #0086cc;
 }
 
 .btn-all {
     background-color: #0086cc;
+    color: white;
 }
 
 .edit-btn{
@@ -501,16 +504,16 @@ label:hover:before {
       margin-bottom: 30px;
   }
   
-  form.example input[type=text] {
+  /* form.example input[type=text] {
     padding: 10px;
     font-size: 17px;
     border: 1px solid grey;
     float: left;
     width: 95%;
     background: #f1f1f1;
-  }
+  } */
   
-  form.example button {
+  /* form.example button {
     float: left;
     width: 5%;
     padding: 10px;
@@ -520,7 +523,7 @@ label:hover:before {
     border: 1px solid grey;
     border-left: none;
     cursor: pointer;
-  }
+  } */
   
   form.example button:hover {
     background: #0b7dda;
