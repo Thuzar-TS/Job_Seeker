@@ -1,0 +1,575 @@
+/*
+    DEMO STYLE
+*/
+@import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
+
+/* Nav */
+#sidebar{
+    height: 100%;
+}
+/*create_view*/
+
+.t2
+{
+    background-color:white;
+    padding:35px;
+}
+.t1{
+    letter-spacing:3px;
+    margin-bottom:15px;
+    font-size:17px;
+}
+.t3
+{
+    border:1px solid black;
+}
+.box{
+    width:100%;
+    padding:5%;
+    border-radius:5px;
+}
+.back{
+    background-color:white;
+    padding:3%;
+    border-radius: 1%;
+}
+.bt
+{
+    margin-top:40px;
+    padding:15px;
+}
+.jumbotron .container {
+    max-width: 100%;
+    list-style:none;
+    background-color:white;
+    font-size:40px;
+    
+  }
+  .m1
+  {
+      text-align:center;
+      margin-left:9%;
+  }
+
+
+
+/*create_view*/
+.b1
+{
+    margin-top:21px;
+}
+.nav-wrapper {
+    position: fixed;
+    width: 100%;
+}
+ /* End Nav */
+
+/* Overall CSS */
+.pad-free {
+    padding: 0px;
+}
+
+.page-header {
+    text-align: center;
+    margin: 15px 0px;
+    border: none;
+    font-weight: bold;
+    color: #0086cc;
+}
+
+.btn-all {
+    background-color: #0086cc;
+    color: white;
+}
+
+.edit-btn{
+    color: blue;
+}
+
+.del-btn {
+    color: red;
+}
+
+.mb-20 {
+    margin-bottom: 20px;
+}
+/* End Overall */
+/* B-1 */
+
+/* End B-1 */
+
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #ecf3f7;
+}
+
+p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.1em;
+    font-weight: 300;
+    line-height: 1.7em;
+    color: #999;
+}
+
+a, a:hover, a:focus {
+    color: inherit;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+.navbar {
+    /* padding: 5px; */
+    background: #fff;
+    border: none;
+    border-radius: 0;
+    /* margin-bottom: 40px; */
+    box-shadow: 3px 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-btn {
+    box-shadow: none;
+    outline: none !important;
+    border: none;
+    background-color: #6ebdea;
+    margin:15px 7px;
+    margin-left: 40px;
+}
+.navbar-btn:hover, .navbar-btn:focus , .navbar-btn:visited, .navbar-btn:active{
+    background-color: #6ebdea;
+}
+.line {
+    width: 100%;
+    height: 1px;
+    border-bottom: 1px dashed #ddd;
+    margin: 40px 0;
+}
+
+/* ---------------------------------------------------
+    SIDEBAR STYLE
+----------------------------------------------------- */
+.wrapper {
+    display: flex;
+    align-items: stretch;
+}
+
+#sidebar {
+    padding-top: 50px;
+    min-width: 250px;
+    max-width: 250px;
+    background: #fff;
+    color: #000;
+    transition: all 0.3s;
+}
+
+.side-icon{
+    color: #000;
+    margin-right: 10px;
+}
+
+#sidebar.active {
+    margin-left: -250px;
+}
+
+#sidebar .sidebar-header {
+    padding: 11.6px;
+    background: #fff;
+    padding-left: 50px;
+    padding-right: 50px;
+    /* margin-top: 15px; */
+    /* margin-bottom: 15px; */
+}
+.logo-img {
+    height: 40px !important;
+    float: left;
+    margin: 10px;
+    margin-left: 0px;
+}
+
+#sidebar .sidebar-header h4{
+    font-size: 15px;
+
+}
+
+#sidebar .sidebar-header h4 i {
+    color: #5bc0de;
+    margin-right: 10px;
+}
+
+#sidebar ul.components {
+    /* padding: 20px 0; */
+    /* border-bottom: 1px solid #47748b; */
+    margin-top: 30px;
+}
+
+#sidebar ul p {
+    color: #fff;
+    padding: 10px;
+}
+
+#sidebar ul li a {
+    padding: 10px;
+    /* font-size: 1.1em; */
+    display: block;
+    font-weight: normal;
+    padding-left: 50px !important;
+}
+#sidebar ul li a:hover {
+    color: #FFF;
+    background: #6ebdea;
+}
+
+#sidebar ul li.active > a, a[aria-expanded="true"] {
+    color: #fff;
+    background: #6ebdea;
+    border-bottom: 1px solid #eee;
+}
+
+
+a[data-toggle="collapse"] {
+    position: relative;
+}
+
+a[aria-expanded="false"]::before, a[aria-expanded="true"]::before {
+    content: '\e259';
+    display: block;
+    position: absolute;
+    right: 20px;
+    font-family: 'Glyphicons Halflings';
+    font-size: 0.6em;
+}
+a[aria-expanded="true"]::before {
+    content: '\e260';
+}
+
+
+ul ul a {
+    font-size: 0.9em !important;
+    padding-left: 30px !important;
+    background: #c4e0f1;
+}
+
+ul.CTAs {
+    padding: 20px;
+}
+
+ul.CTAs a {
+    text-align: center;
+    font-size: 0.9em !important;
+    display: block;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+a.download {
+    background: #fff;
+    color: #7386D5;
+}
+
+a.article, a.article:hover {
+    background: #6d7fcc !important;
+    color: #fff !important;
+} 
+
+
+
+/* ---------------------------------------------------
+    CONTENT STYLE
+----------------------------------------------------- */
+#content {
+    padding: 50px;
+    min-height: 100vh;
+    transition: all 0.3s;
+    width:100%;
+    /* padding: 15px; */
+    /* padding-top: 50px; */
+}
+
+.wrap{
+    margin-top: 50px;
+}
+
+/* ---------------------------------------------------
+    MEDIAQUERIES
+----------------------------------------------------- */
+@media (max-width: 768px) {
+    #sidebar {
+        margin-left: -250px;
+    }
+    #sidebar.active {
+        margin-left: 0;
+    }
+    #sidebarCollapse span {
+        display: none;
+    }
+}
+
+/*custom style*/
+.nabar-wrapper{
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-left: 0px;
+    padding-right: 0px;
+
+}
+.navbar{
+    min-height: 63px;
+}
+.navbar-custom {  
+    height: 60px; }
+.navbar-header .navbar-brand {  
+    color: #fff;  font-size: 20px;  text-transform: uppercase;  font-weight: 500;  height: 60px;  padding-top: 18px;
+ }
+.navbar-header .navbar-brand span {  color: #30a5ff; }
+.navbar-toggle {  background: rgba(0, 0, 0, 0.5);  padding: 12px;  margin-top: 10px; }
+.navbar-toggle:hover {  background: rgba(0, 0, 0, 0.5); }
+.icon-bar {  background: #fff; }.dropdown {  float: left;  margin: 10px 8px;  padding: 0px;  border-radius: 5px; }
+.dropdown a.dropdown-toggle {  color: #000;  height: 40px;  width: 40px;  padding-top: 11px;  padding-left: 9px;  }
+.dropdown:hover {  color: #30a5ff;}
+.dropdown .label {  top: 3px;  left: 15px;  padding-top: 4px;  padding-bottom: 4px;  position: absolute;  border-radius: 9999px; }
+.navbar-top-links li:last-child {  margin-right: 15px; }
+.nav > li > a:hover, .nav > li > a:focus, .nav .open > a, .nav .open > a:hover, .nav .open > a:focus {  text-decoration: none;  background-color: rgba(255, 255, 255, 0.2);  background: none; }
+.dropdown-messages {  border: 1px solid #fff;  width: 360px;  background: rgba(255, 255, 255, 0.9);  color: #444;  font-size: 0.9em; }
+.dropdown-messages img {  margin: 5px 10px;  float: left; }.dropdown-messages .message-body {  margin: 5px;  float: left;  width: 280px; }
+.dropdown small {  color: #999; }.dropdown em {  margin: 0 5px; }
+.dropdown-menu > li > a {  padding: 5px 10px; }
+.dropdown-menu li .message-body a {  color: #444; }
+.dropdown-menu li a:hover {  color: #30a5ff;  text-decoration: none;  background: none; }
+.divider, .clear {  clear: both; }
+.dropdown-alerts {  border: 1px solid #fff;  width: 260px;  background: rgba(255, 255, 255, 0.5);  color: #000;  font-size: 0.9em; }
+.profile-sidebar {
+    padding: 10px;
+    border-bottom: 1px solid #e9ecf2;
+    border-top: 1px solid #e9ecf2;
+}
+.profile-userpic img {
+    float: left;
+    width: 50px;
+    height: 50px;
+    border-radius: 9999px !important;
+}
+.profile-usertitle {
+    text-align: left;
+    margin: 15px;
+    margin-left: 60px;
+}
+.profile-usertitle-name {
+    font-size: 16px;
+    margin-bottom: 0px;
+}
+
+/*for btn for search button and logout button */
+.logoutBtn{
+    float: left;
+    margin: 10px 7px;
+    border-radius: 5px;
+    border: 1px solid #6ebdea;
+    padding: 10px;
+}
+.logoutBtn:hover{
+    color: #fff;
+    background-color: #6ebdea;
+    box-shadow: 0 1px 4px 0 rgba(0,0,0,0.37);
+}
+.searchBtn{
+    border: 1px solid #6ebdea;
+    background-color: #6ebdea;
+    box-shadow: 0 1px 4px 0 rgba(0,0,0,0.37);
+}
+.searchBtn:hover{
+    border: 1px solid #6ebdea;
+    background-color: transparent;
+    color: #000;
+}
+/*for heading of job search/edit*/
+.headingStyle{
+    font-weight: bold;
+}
+.pb_20{
+    padding-bottom: 20px;
+}
+.mg_0{
+    margin: 0px;
+}
+/*for login form*/
+.login-box{
+    width: 325px;
+    background: #fff;
+    color: #000;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    box-sizing: border-box;
+    transform: translate(-50%,-50%);
+    padding: 20px;
+    box-shadow: 0 1px 4px 0 rgba(0,0,0,0.37);
+    border-radius: 5px;
+    
+}
+.avatar{
+    /* width:100px;
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 50px); */
+    margin: 20px;
+}
+h1{
+    margin:0;
+    padding: 0px 0 20px;
+    text-align: center;
+    font-size: 22px;
+}
+.login-box label{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.login-box input{    
+    margin-bottom: 20px;
+}
+.login-box input[type="text"], input[type="password"]{
+    width: 100%;
+    border-radius: 5px;
+    background: transparent;
+    border: 1px solid #6ebdea;
+    outline: none;
+    height: 40px;
+    color: #000;
+    font-size: 14px;
+    padding: 10px;
+}
+.login-box input[type="radio"]{
+    width: auto;
+}
+.login-box .login-btn{
+    width: 100%;
+    border: none;
+    height: 40px;
+    border-radius: 5px;
+    background-color: #6ebdea;
+    color: #fff;
+    box-shadow: 0 1px 4px 0 rgba(0,0,0,0.37);
+    margin-bottom: 5px;
+}
+.login-box a{
+    text-decoration: none;
+    color: #000;
+    font-size: 12px;
+}
+/*for checkbox style*/
+/*checekbox style*/
+[type="checkbox"]:not(:checked),
+[type="checkbox"]:checked {
+  position: absolute;
+  left: -9999px;
+}
+[type="checkbox"]:not(:checked) + label,
+[type="checkbox"]:checked + label {
+  position: relative;
+  padding-left: 1.95em;
+  cursor: pointer;
+}
+/* checkbox aspect */
+[type="checkbox"]:not(:checked) + label:before,
+[type="checkbox"]:checked + label:before {
+  content: '';
+  position: absolute;
+  left: 0; top: 0;
+  width: 1.2em; height: 1.2em;
+  border: 2px solid #6ebdea;
+  background: #fff;
+  border-radius: 4px;
+  /* box-shadow: inset 0 1px 3px rgba(0,0,0,.1); */
+}
+/* checked mark aspect */
+[type="checkbox"]:not(:checked) + label:after,
+[type="checkbox"]:checked + label:after {
+    content: '\2713';
+    position: absolute;
+    top: 0.15em;
+    left: 0.2em;
+    font-size: 1em;
+    line-height: 0.8;
+    color: #6ebdea;
+    /* transition: all .2s; */
+    font-family: Arial;
+    font-weight: bold;
+}
+/* checked mark aspect changes */
+[type="checkbox"]:not(:checked) + label:after {
+  opacity: 0;
+  transform: scale(0);
+}
+[type="checkbox"]:checked + label:after {
+  opacity: 1;
+  transform: scale(1);
+}
+
+/*for after checked border box
+  [type="checkbox"]:checked:focus + label:before,
+[type="checkbox"]:not(:checked):focus + label:before {
+  border: 2px solid #6ebdea;
+}  
+label:hover:before {
+  border: 2px solid #6ebdea important;
+}
+/*end checkbox style*/
+/* JobList */
+* {
+    box-sizing: border-box;
+  }
+  .example{
+      margin-bottom: 30px;
+  }
+  
+  /* form.example input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    width: 95%;
+    background: #f1f1f1;
+  } */
+  
+  /* form.example button {
+    float: left;
+    width: 5%;
+    padding: 10px;
+    background: #2196F3;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none;
+    cursor: pointer;
+  } */
+  
+  form.example button:hover {
+    background: #0b7dda;
+  }
+  form.example::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+ /* End JobList */
+
+ /* C-1 JobCreate(4)*/
+.C4-heading{
+    font-weight: bold;
+    text-align: center;
+}
+
+.C4-color{
+    background: #e8eaed;
+}
+
+.C4-select{
+    margin-left: -39px;
+}
+
+.C4-btnindex{
+    margin-left: -63px;
+}
+/* End C-1 JobCreate(4) */
