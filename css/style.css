@@ -8,20 +8,30 @@
     height: 100%;
 }
 /*create_view*/
+
+.t2
+{
+    background-color:white;
+    padding:35px;
+}
 .t1{
     letter-spacing:3px;
     margin-bottom:15px;
     font-size:17px;
 }
+.t3
+{
+    border:1px solid black;
+}
 .box{
     width:100%;
     padding:5%;
-    border-radius:10px;
+    border-radius:5px;
 }
 .back{
     background-color:white;
     padding:3%;
-    border-radius: 3%;
+    border-radius: 1%;
 }
 .bt
 {
@@ -34,6 +44,11 @@
     background-color:white;
     font-size:40px;
     
+  }
+  .m1
+  {
+      text-align:center;
+      margin-left:9%;
   }
 
 
