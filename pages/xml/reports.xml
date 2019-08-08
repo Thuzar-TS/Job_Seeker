@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<books>
+  <book>
+    <name>php developer</name>
+    <author>john</author>
+    <ISBN>ABC-123-456</ISBN>
+    <price>400</price>
+    <category>Web Development</category>
+  </book>
+  <book>
+    <name>Learning Web Development </name>
+    <author>Michael</author>
+    <ISBN>ABC-123-456</ISBN>
+    <price>300</price>
+    <category>Web Development</category>
+  </book>
+  <book>
+    <name>Pride and Prejudice</name>
+    <author>Jane Austen</author>
+    <ISBN>FC-456-678</ISBN>
+    <price>450</price>
+    <category>Novel</category>
+  </book>
+  <book>
+    <name>Harry Potter and the Order of the Phoenix</name>
+    <author>J.K. Rowling</author>
+    <ISBN>FC-123-456</ISBN>
+    <price>650</price>
+    <category>Novel</category>
+  </book>
+  <book>
+    <name>Database Management Systems</name>
+    <author>Mark</author>
+    <ISBN>DB-123-ASD</ISBN>
+    <price>300</price>
+    <category>Database</category>
+  </book>
+  <book>
+    <name>Java Book</name>
+    <author>Jane davis</author>
+    <ISBN>PR-456-A2</ISBN>
+    <price>450</price>
+    <category>Programming</category>
+  </book>
+  <book>
+    <name>C By Example</name>
+    <author>John</author>
+    <ISBN>PR-123-A1</ISBN>
+    <price>500</price>
+    <category>Programming</category>
+  </book>
+</books>
