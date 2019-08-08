@@ -35,10 +35,10 @@
                             <img src="../images/1.png" alt="" class="col-md-12 pad-free">
                         </div>
                         <div class="col-md-11">
-                            <a href="Customer_view.php">First Company </a>
-                            Name <br>
-                            ID <br>
-                            Info <br><br>
+                            <a href="Customer_view.php">お客 </a>
+                            名:田中 <br>
+                            ID:000025 <br>
+                            会社情報: 電力・ガス・水道<br><br>
                             <a href="#" class="edit-btn"><span class="glyphicon glyphicon-edit"></span></a>&nbsp;
                                 <a href="#" class="del-btn"><span class="glyphicon glyphicon-trash"></span></a>
                         </div>
@@ -54,10 +54,10 @@
                             <img src="../images/2.png" alt="" class="col-md-12 pad-free">
                         </div>
                         <div class="col-md-11">
-                            <a href="Customer_view.php">First Company </a>
-                            Name <br>
-                            ID <br>
-                            Info <br><br>
+                            <a href="Customer_view.php">お客 </a>
+                            名:小林 <br>
+                            ID:000025 <br>
+                            会社情報: 電力・ガス・水道<br><br>
                             <a href="#" class="edit-btn"><span class="glyphicon glyphicon-edit"></span></a>&nbsp;
                                 <a href="#" class="del-btn"><span class="glyphicon glyphicon-trash"></span></a>
                         </div>
@@ -73,10 +73,10 @@
                             <img src="../images/3.png" alt="" class="col-md-12 pad-free">
                         </div>
                         <div class="col-md-11">
-                            <a href="Customer_view.php">First Company </a>
-                            Name <br>
-                            ID <br>
-                            Info <br><br>
+                            <a href="Customer_view.php">お客 </a>
+                            名:石川 <br>
+                            ID:000025 <br>
+                            会社情報: 電力・ガス・水道<br><br>
                             <a href="#" class="edit-btn"><span class="glyphicon glyphicon-edit"></span></a>&nbsp;
                                 <a href="#" class="del-btn"><span class="glyphicon glyphicon-trash"></span></a>
                         </div>
