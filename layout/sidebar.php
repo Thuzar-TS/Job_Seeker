@@ -1,34 +1,28 @@
-<nav id="sidebar">
-    <div class="sidebar-header">
-        <h4><i class="glyphicon glyphicon-briefcase"></i> &nbsp;MPM</h4>
-    </div>          
-
+<nav id="sidebar" >
+    <!-- <div class="sidebar-header">
+       
+    </div>           -->
     <ul class="list-unstyled components">
         <!-- <p>Dummy Heading</p> -->
         <li class="active">
-            <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false"><i class="glyphicon glyphicon-search side-icon"></i> C-1-SearchJob</a>
+        <a href=""><i class="glyphicon glyphicon-briefcase side-icon"></i> 求人情報検索/編集</a>
+        </li>
+        <li>
+            <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false"><i class="glyphicon glyphicon-book side-icon"></i> 顧客情報管理</a>
             <ul class="collapse list-unstyled" id="homeSubmenu">
-                <li><a href="#">求人情報</a></li>
-                <li><a href="#">構造化データ</a></li>
-                <li><a href="#">ヘッダー</a></li>
-                <li><a href="#">データ生成・登録</a></li>
+                <li><a href="#"><i class="glyphicon glyphicon-bullhorn side-icon"></i> 求人情報</a></li>
+                <li><a href="#"><i class="glyphicon glyphicon-file side-icon"></i> 構造化データ</a></li>
+                <li><a href="#"><i class="glyphicon glyphicon-inbox side-icon"></i> ヘッダー</a></li>
+                <li><a href="#"><i class="glyphicon glyphicon-modal-window side-icon"></i> データ生成・登録</a></li>
             </ul>
         </li>
         <li>
-            <a href="#"><i class="glyphicon glyphicon-plus side-icon"></i> About</a>
-            <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false"><i class="glyphicon glyphicon-search side-icon"></i> Pages</a>
-            <ul class="collapse list-unstyled" id="pageSubmenu">
-                <li><a href="#">Page 1</a></li>
-                <li><a href="#">Page 2</a></li>
-                <li><a href="#">Page 3</a></li>
-            </ul>
-        </li>
+            <a href="#"><i class="glyphicon glyphicon-wrench side-icon"></i> Sitemap 編集</a>
+            </li>
         <li>
-            <a href="#"><i class="glyphicon glyphicon-home side-icon"></i> Portfolio</a>
+            <a href="#"><i class="glyphicon glyphicon-tasks side-icon"></i> ログ管理</a>
         </li>
-        <li>
-            <a href="#"><i class="glyphicon glyphicon-star side-icon"></i> Contact</a>
-        </li>
+        
     </ul>
 
 </nav>
