@@ -7,6 +7,38 @@
 #sidebar{
     height: 100%;
 }
+/*create_view*/
+.t1{
+    letter-spacing:3px;
+    margin-bottom:15px;
+    font-size:17px;
+}
+.box{
+    width:100%;
+    padding:5%;
+    border-radius:10px;
+}
+.back{
+    background-color:white;
+    padding:3%;
+    border-radius: 3%;
+}
+.bt
+{
+    margin-top:40px;
+    padding:15px;
+}
+.jumbotron .container {
+    max-width: 100%;
+    list-style:none;
+    background-color:white;
+    font-size:40px;
+    
+  }
+
+
+
+/*create_view*/
 .nav-wrapper {
     position: fixed;
     width: 100%;
@@ -34,6 +66,10 @@
 
 .del-btn {
     color: red;
+}
+
+.mb-20 {
+    margin-bottom: 20px;
 }
 /* End Overall */
 /* B-1 */
@@ -211,7 +247,7 @@ a.download {
 a.article, a.article:hover {
     background: #6d7fcc !important;
     color: #fff !important;
-}
+} 
 
 
 
@@ -457,3 +493,61 @@ label:hover:before {
   border: 2px solid #6ebdea important;
 }
 /*end checkbox style*/
+/* JobList */
+* {
+    box-sizing: border-box;
+  }
+  .example{
+      margin-bottom: 30px;
+  }
+  
+  form.example input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    width: 95%;
+    background: #f1f1f1;
+  }
+  
+  form.example button {
+    float: left;
+    width: 5%;
+    padding: 10px;
+    background: #2196F3;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none;
+    cursor: pointer;
+  }
+  
+  form.example button:hover {
+    background: #0b7dda;
+  }
+  form.example::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+ /* End JobList */
+
+ /* C-1 JobCreate(4)*/
+.C4-heading{
+    font-weight: bold;
+    text-align: center;
+}
+
+.C4-color{
+    background: #e8eaed;
+}
+
+.C4-select{
+    margin-left: -39px;
+}
+
+.C4-btnindex{
+    margin-left: -63px;
+}
+/* End C-1 JobCreate(4) */
