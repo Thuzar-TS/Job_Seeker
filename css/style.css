@@ -93,6 +93,9 @@ a, a:hover, a:focus {
 .pb_20{
     padding-bottom: 20px;
 }
+.mg_0{
+    margin: 0px;
+}
 /* JobCreate(3)*/
 .panel-header h3{
     text-align: center;
@@ -156,7 +159,6 @@ a, a:hover, a:focus {
     margin: 0px;
 }
 /* End Overall */
-
 /* ---------------------------------------------------
     SIDEBAR STYLE
 ----------------------------------------------------- */
