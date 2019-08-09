@@ -1,17 +1,31 @@
 <?php include_once("../layout/header.php"); ?>
 <div class="wrap col-md-12 pad-free">
     <div class="row">
-        <h3 class="page-header">データ生成・登録</h3>
+        <!-- <h3 class="page-header">データ生成・登録</h3> -->
         <!-- <div class="col-md-1 mb-20">
             
         </div> -->
     </div>
     <div class="panel panel-info">
-        <div class="panel-heading">
+        <h4 class="page-header">
+            データ生成・登録
+        </h4>
+        <!-- <div class="panel-heading">
             顧客ID JOBID 顧客名　求人名
-        </div>
+        </div> -->
         <div class="panel-body">
             <div class="col-md-12 pad-free mb-20">
+                <div class="row">
+                    <div class="col-md-2">
+                        顧客ID JOBID 顧客名　求人名
+                    </div>
+                </div>
+                <br>    
+                <div class="row">
+                    <div class="col-md-2">
+                        現在のステータス状態 : 未公開
+                    </div>
+                </div>
                 <div class="row">
                     <div class="col-md-2">
                         <button class="btn btn-default C4-color">ステータス変更</button>
