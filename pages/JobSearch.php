@@ -5,7 +5,7 @@
           <div class="row" style="margin-left: 50px;margin-right: 50px;">
             <div class="col-sm-12">
               <div class="panel-heading ">
-              <h4 class="headingStyle">顧客番号、顧客名、求人番号 で求人を検索できます</h4>
+              <h4><strong>顧客番号、顧客名、求人番号 で求人を検索できます</strong></h4>
               
               </div>            
             </div>
@@ -20,7 +20,7 @@
                   <div class="col-xs-6 col-md-2">
                     
                       <button class="btn btn-primary col-md-12 searchBtn" type="submit">
-                        <span class="glyphicon glyphicon-search side-icon"></span> 検索
+                        <span class="glyphicon glyphicon-search"></span> 検索
                       </button>
                 
                   </div>

@@ -1,27 +1,46 @@
-/*
-    DEMO STYLE
-*/
-@import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
+body {
+    font-family:"ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro",Osaka, "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+    background: #ecf3f7;
+}
 
-/* Nav */
-#sidebar{
-    height: 100%;
+p {
+    font-family:"ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro",Osaka, "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+    font-size: 1.1em;
+    font-weight: 300;
+    line-height: 1.7em;
+    color: #999;
+}
+
+a, a:hover, a:focus {
+    color: inherit;
+    text-decoration: none;
+    transition: all 0.3s;
 }
 /*create_view*/
+
+.t2
+{
+    background-color:white;
+    padding:35px;
+}
 .t1{
     letter-spacing:3px;
     margin-bottom:15px;
     font-size:17px;
 }
+.t3
+{
+    border:1px solid black;
+}
 .box{
     width:100%;
     padding:5%;
-    border-radius:10px;
+    border-radius:5px;
 }
 .back{
     background-color:white;
     padding:3%;
-    border-radius: 3%;
+    border-radius: 1%;
 }
 .bt
 {
@@ -32,22 +51,9 @@
     max-width: 100%;
     list-style:none;
     background-color:white;
-    font-size:40px;
-    
-  }
-
-
-
+    font-size:40px;    
+}
 /*create_view*/
-.b1
-{
-    margin-top:21px;
-}
-.nav-wrapper {
-    position: fixed;
-    width: 100%;
-}
- /* End Nav */
 
 /* Overall CSS */
 .pad-free {
@@ -63,20 +69,32 @@
 }
 
 .btn-all {
+    border: 1px solid #008ecc;
     background-color: #0086cc;
-    color: white;
+    box-shadow: 0 1px 4px 0 rgba(0,0,0,0.37);
+    color: #fff;
+}
+.btn-all:hover, btn-all:focus, btn-all:active{
+    border: 1px solid #0086cc;
+    background-color: transparent;
+    color: #000;
 }
 
 .edit-btn{
-    color: blue;
+    color: #337ab7;
 }
 
 .del-btn {
-    color: red;
+    color: #d9534f;
 }
-
 .mb-20 {
     margin-bottom: 20px;
+}
+.pb_20{
+    padding-bottom: 20px;
+}
+.mg_0{
+    margin: 0px;
 }
 /* JobCreate(3)*/
 .panel-header h3{
@@ -90,59 +108,8 @@ textarea.form-control{
  width:300px;
  height:200px;
 }
-/* JobCreate(3) */
-
+/* End JobCreate(3) */
 /* End Overall */
-/* B-1 */
-
-/* End B-1 */
-
-
-body {
-    font-family: 'Poppins', sans-serif;
-    background: #ecf3f7;
-}
-
-p {
-    font-family: 'Poppins', sans-serif;
-    font-size: 1.1em;
-    font-weight: 300;
-    line-height: 1.7em;
-    color: #999;
-}
-
-a, a:hover, a:focus {
-    color: inherit;
-    text-decoration: none;
-    transition: all 0.3s;
-}
-
-.navbar {
-    /* padding: 5px; */
-    background: #fff;
-    border: none;
-    border-radius: 0;
-    /* margin-bottom: 40px; */
-    box-shadow: 3px 1px 3px rgba(0, 0, 0, 0.1);
-}
-
-.navbar-btn {
-    box-shadow: none;
-    outline: none !important;
-    border: none;
-    background-color: #6ebdea;
-    margin:15px 7px;
-    margin-left: 40px;
-}
-.navbar-btn:hover, .navbar-btn:focus , .navbar-btn:visited, .navbar-btn:active{
-    background-color: #6ebdea;
-}
-.line {
-    width: 100%;
-    height: 1px;
-    border-bottom: 1px dashed #ddd;
-    margin: 40px 0;
-}
 
 /* ---------------------------------------------------
     SIDEBAR STYLE
@@ -152,20 +119,32 @@ a, a:hover, a:focus {
     align-items: stretch;
 }
 
-#sidebar {
-    padding-top: 50px;
+#sidebar{
     min-width: 250px;
     max-width: 250px;
     background: #fff;
     color: #000;
     transition: all 0.3s;
+    height: 100%;
+    position: fixed;
+    top: 63px;
+    bottom: 0;
+    left: 0;
+    z-index: 1000;
+    display: block;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    overflow-y: auto;
 }
 
 .side-icon{
     color: #000;
     margin-right: 10px;
 }
-
+.btn-icon{
+    color:#fff;
+}
 #sidebar.active {
     margin-left: -250px;
 }
@@ -187,7 +166,6 @@ a, a:hover, a:focus {
 
 #sidebar .sidebar-header h4{
     font-size: 15px;
-
 }
 
 #sidebar .sidebar-header h4 i {
@@ -198,7 +176,7 @@ a, a:hover, a:focus {
 #sidebar ul.components {
     /* padding: 20px 0; */
     /* border-bottom: 1px solid #47748b; */
-    margin-top: 30px;
+    /* margin-top: 30px; */
 }
 
 #sidebar ul p {
@@ -280,7 +258,7 @@ a.article, a.article:hover {
     min-height: 100vh;
     transition: all 0.3s;
     width:100%;
-    /* padding: 15px; */
+    padding-left: 0px;
     /* padding-top: 50px; */
 }
 
@@ -302,20 +280,75 @@ a.article, a.article:hover {
         display: none;
     }
 }
+@media (max-width: 1200px){
+    #content{
+        padding-left: 20px;
+    }
+}
+@media (min-width: 992px){
+    #content{
+        padding-left: 0px;
+    }
+}
 
-/*custom style*/
+/* ---------------------------------------------------
+    NAVBAR
+----------------------------------------------------- */
+
 .nabar-wrapper{
     margin-left: 50px;
     margin-right: 50px;
     padding-left: 0px;
     padding-right: 0px;
-
 }
 .navbar{
     min-height: 63px;
 }
 .navbar-custom {  
-    height: 60px; }
+    height: 60px;
+ }
+    .nav-wrapper {
+        position: fixed;
+        /* width: 100%; */
+        width: 100%;
+        /* height: auto; */
+        /* position: fixed; */
+        /* top: 0; */
+        /* bottom: 0; */
+        /* left: 0; */
+        z-index: 9999;
+        /* display: block; */
+        margin: 0;
+        padding: 0;
+        /* overflow-x: hidden; */
+        /* overflow-y: auto; */
+    }
+    .navbar {
+        /* padding: 5px; */
+        background: #fff;
+        border: none;
+        border-radius: 0;
+        /* margin-bottom: 40px; */
+        box-shadow: 3px 1px 3px rgba(0, 0, 0, 0.1);
+    }
+    
+    .navbar-btn {
+        box-shadow: none;
+        outline: none !important;
+        border: none;
+        background-color: #6ebdea;
+        margin:15px 7px;
+        margin-left: 40px;
+    }
+    .navbar-btn:hover, .navbar-btn:focus , .navbar-btn:visited, .navbar-btn:active{
+        background-color: #6ebdea;
+    }
+    .line {
+        width: 100%;
+        height: 1px;
+        border-bottom: 1px dashed #ddd;
+        margin: 40px 0;
+    }
 .navbar-header .navbar-brand {  
     color: #fff;  font-size: 20px;  text-transform: uppercase;  font-weight: 500;  height: 60px;  padding-top: 18px;
  }
@@ -336,60 +369,32 @@ a.article, a.article:hover {
 .dropdown-menu li a:hover {  color: #30a5ff;  text-decoration: none;  background: none; }
 .divider, .clear {  clear: both; }
 .dropdown-alerts {  border: 1px solid #fff;  width: 260px;  background: rgba(255, 255, 255, 0.5);  color: #000;  font-size: 0.9em; }
-.profile-sidebar {
-    padding: 10px;
-    border-bottom: 1px solid #e9ecf2;
-    border-top: 1px solid #e9ecf2;
-}
-.profile-userpic img {
-    float: left;
-    width: 50px;
-    height: 50px;
-    border-radius: 9999px !important;
-}
-.profile-usertitle {
-    text-align: left;
-    margin: 15px;
-    margin-left: 60px;
-}
-.profile-usertitle-name {
-    font-size: 16px;
-    margin-bottom: 0px;
-}
 
 /*for btn for search button and logout button */
 .logoutBtn{
     float: left;
     margin: 10px 7px;
     border-radius: 5px;
-    border: 1px solid #6ebdea;
+    border: 1px solid #0086cc;
     padding: 10px;
 }
 .logoutBtn:hover{
     color: #fff;
-    background-color: #6ebdea;
+    background-color: #0086cc;
     box-shadow: 0 1px 4px 0 rgba(0,0,0,0.37);
 }
 .searchBtn{
-    border: 1px solid #6ebdea;
-    background-color: #6ebdea;
+    border: 1px solid #008ecc;
+    background-color: #0086cc;
     box-shadow: 0 1px 4px 0 rgba(0,0,0,0.37);
+    color: #fff;
 }
 .searchBtn:hover{
-    border: 1px solid #6ebdea;
+    border: 1px solid #0086cc;
     background-color: transparent;
     color: #000;
 }
-/*for heading of job search/edit*/
-.headingStyle{
-    font-weight: bold;
-}
-.pb_20{
-    padding-bottom: 20px;
-}
-.mg_0{
-    margin: 0px;
-}
+
 /*for login form*/
 .login-box{
     width: 325px;
@@ -456,8 +461,8 @@ h1{
     color: #000;
     font-size: 12px;
 }
+
 /*for checkbox style*/
-/*checekbox style*/
 [type="checkbox"]:not(:checked),
 [type="checkbox"]:checked {
   position: absolute;
@@ -504,56 +509,6 @@ h1{
   opacity: 1;
   transform: scale(1);
 }
-
-/*for after checked border box
-  [type="checkbox"]:checked:focus + label:before,
-[type="checkbox"]:not(:checked):focus + label:before {
-  border: 2px solid #6ebdea;
-}  
-label:hover:before {
-  border: 2px solid #6ebdea important;
-}
-/*end checkbox style*/
-/* JobList */
-* {
-    box-sizing: border-box;
-  }
-  .example{
-      margin-bottom: 30px;
-  }
-  
-  /* form.example input[type=text] {
-    padding: 10px;
-    font-size: 17px;
-    border: 1px solid grey;
-    float: left;
-    width: 95%;
-    background: #f1f1f1;
-  } */
-  
-  /* form.example button {
-    float: left;
-    width: 5%;
-    padding: 10px;
-    background: #2196F3;
-    color: white;
-    font-size: 17px;
-    border: 1px solid grey;
-    border-left: none;
-    cursor: pointer;
-  } */
-  
-  form.example button:hover {
-    background: #0b7dda;
-  }
-  form.example::after {
-    content: "";
-    clear: both;
-    display: table;
-  }
-  
- /* End JobList */
-
  /* C-1 JobCreate(4)*/
 .C4-heading{
     font-weight: bold;

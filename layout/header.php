@@ -21,5 +21,5 @@
   <div id="#sidebar-collapse">
     <?php include_once("sidebar.php"); ?>
   </div>   
-  <div id="content">
+  <div id="content" class="col-sm-9 col-sm-offset-3 col-md-8 col-md-offset-4 col-lg-10 col-lg-offset-2">
       
