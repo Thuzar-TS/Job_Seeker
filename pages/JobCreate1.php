@@ -6,8 +6,7 @@
 }
 </style>
    <div class="wrap">
-      <div class="row">
-         <!-- <div class="col-sm-2"></div> -->
+      <div class="row">     
          <div class="col-md-12">
                <div class="panel panel-info scroll"> 
                   <div class="panel-header"><h4 class ="page-header"> <strong> Job Create </strong></h4></div>
@@ -123,10 +122,8 @@
                         </div>
                      </div>
                   </div>
-               </div>  
-           
-         </div>
-         <!-- <div class="col-sm-2"></div> -->
+               </div>     
+          </div>
       </div> 
    </div>
 

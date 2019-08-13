@@ -511,9 +511,8 @@ h1{
 }
 
 .scroll{
-    height: 800px;
-    width: 1550px;
-    overflow:scroll;
+    height: 780px;
+    overflow-y : scroll;
 }
 
 /*for checkbox style*/
