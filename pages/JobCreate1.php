@@ -126,9 +126,7 @@
           </div>
       </div> 
    </div>
-
-         
-  
+ 
 <script>
 var ct = 1;
 function new_link()
