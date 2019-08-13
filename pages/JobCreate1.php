@@ -7,11 +7,10 @@
 </style>
    <div class="wrap">
       <div class="row">
-         <div class="col-sm-2"></div>
-         <div class="col-sm-8">
-            <div class="col-md-12 col-sm-12 col-xl-12">
-               <div class="panel panel-primary"> 
-                  <div class="panel-heading"><h4><strong> Job Create </strong></h4></div>
+         <!-- <div class="col-sm-2"></div> -->
+         <div class="col-md-12">
+               <div class="panel panel-info scroll"> 
+                  <div class="panel-header"><h4 class ="page-header"> <strong> Job Create </strong></h4></div>
                      <div class="panel-body">
                         <div class="row">
                            <div class="col-sm-2"></div>
@@ -125,15 +124,14 @@
                      </div>
                   </div>
                </div>  
-            </div>
+           
          </div>
-         <div class="col-sm-2"></div>
+         <!-- <div class="col-sm-2"></div> -->
       </div> 
    </div>
 
          
-<script src="https://code.jquery.com/jquery-latest.js"></script>    
-
+  
 <script>
 var ct = 1;
 function new_link()

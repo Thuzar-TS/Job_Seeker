@@ -514,6 +514,12 @@ h1{
     font-size: 12px;
 }
 
+.scroll{
+    height: 800px;
+    width: 1550px;
+    overflow:scroll;
+}
+
 /*for checkbox style*/
 [type="checkbox"]:not(:checked),
 [type="checkbox"]:checked {
